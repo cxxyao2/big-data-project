@@ -115,12 +115,11 @@ test('stream 1M users and check if Mike is there', async ({ page }) => {
 
 ```
 
-## Level 3: more than 10,000,000 objects
+## Level 3: more than 10,000,000 objects status:not implemented
 
 - Generate 10 million objects with pagination on backend (batch streaming); if no pagination, node.js has issue when allocating 10 million objects to memory
 - Frontend: Use CDK virtual scrolling to render only visible rows
-- Playwright tests: Use `page.route()` interception with streaming JSON parser (stream-json)
-- Solutions implemented:
+- Solutions to be implemented:
   - Backend: Async batch generation with garbage collection yields
   - Frontend: Virtual scroll viewport (renders only ~20-30 DOM nodes)
   - Testing: Stream-based JSON parsing for large responses
