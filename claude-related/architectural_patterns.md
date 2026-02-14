@@ -18,3 +18,13 @@
 ## workflow trigger
 
 ![alt text](image.png)
+
+## dangere
+
+clause --dangerously-skip-permissions
+
+## persist before ending sessions
+
+save this to my local Claude.md in my projects directory. Save the work that we just did.
+
+## load my project context
